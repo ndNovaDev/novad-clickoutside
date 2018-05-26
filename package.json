@@ -1,6 +1,6 @@
 {
   "name": "novad-clickoutside",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a click outside tool",
   "main": "index.js",
   "scripts": {
