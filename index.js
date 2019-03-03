@@ -12,7 +12,9 @@ module.exports = {
                     }
                 }
                 el.__clickoutside__ = clickoutside
-                document.addEventListener('click', clickoutside)
+                setTimeout(() => {
+                    document.addEventListener('click', clickoutside)
+                }, 0);
             },
             unbind(el, binding) {
                 document.removeEventListener('click', el.__clickoutside__)
